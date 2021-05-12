@@ -14,7 +14,7 @@
 
 
 body{
-  font-family: "Lato" sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 logo{
@@ -43,7 +43,7 @@ nav ul li{
 .navbar-brand{
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 8rem !important;
+  height: 5rem !important;
 } 
 
 .navbar-light .navbar-brand {
@@ -58,4 +58,33 @@ nav ul li{
 
 .navbar-nav > li > a:hover{
   border-top: 0.188rem solid var(--cvWhite);
+}
+
+/***Header***/
+.header-wrapper{
+  position: relative;
+  background: url(background.jpg) no-repeat;
+  background-clip: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+} 
+
+.main-info h1{
+  color: var(--cvOrange);
+  text-transform: uppercase;
+}
+
+
+.typed-text{
+  font-size: 2rem;
+  color: var(--cvWhite)
 }
