@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+/*Navbar*/
+
+:root {
+  --cvWhite: #fff;
+  --cvGreen:rgb(56, 186, 89);
+  --cvPink: rgb(255, 77, 110);
+  --cvBlue: rgb(0, 25, 90);
+  --cvOrange: rgb(255, 115, 77);
+  --cvYellow: rgb(255, 197, 26);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body{
+  font-family: "Lato" sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+logo{
+  width: 16.25rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*NavLinks*/
+
+nav a.nav-link {
+  font-weight: 300;
+  initial-letter: 0.031rem;
+  cursor: pointer
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li{
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--cvOrange) !important
 }
+
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 8rem;
+} 
+
+.navbar-light .navbar-brand {
+  color: var(--cvWhite) !important;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/* .{
+  color:rgb(255, 197, 26)
+} */
