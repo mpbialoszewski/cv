@@ -9,6 +9,7 @@
   --cvBlue: rgb(0, 25, 90);
   --cvOrange: rgb(255, 115, 77);
   --cvYellow: rgb(255, 197, 26);
+  --cvDark: #212529;
 }
 
 
@@ -35,7 +36,8 @@ nav ul li{
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--cvOrange) !important
+  color: var(--cvOrange) !important;
+  border-top:  0.188rem solid var(--cvDark);
 }
 
 .navbar-brand{
@@ -50,6 +52,10 @@ nav ul li{
   font-size: 16px;
 }
 
-/* .{
-  color:rgb(255, 197, 26)
-} */
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+  border-top: 0.188rem solid var(--cvWhite);
+}
+
+.navbar-nav > li > a:hover{
+  border-top: 0.188rem solid var(--cvWhite);
+}
