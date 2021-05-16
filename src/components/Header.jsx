@@ -11,9 +11,10 @@ const Header = () => {
                     className='typed-text'
                     strings={['Ruby on Rails','React.js', 'Node.js']}
                     typeSpeed={70}
-                    backSpeed={80} 
+                    backSpeed={80}  
                     loop                  
                    />
+                   <a href='#' className ='btn-main-offer'> Contact me</a>
                </div>
                </div> 
         </div>
