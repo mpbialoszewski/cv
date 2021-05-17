@@ -9,9 +9,9 @@ const Header = () => {
                    <h1>I work with such technologies as:</h1>
                    <Typed 
                     className='typed-text'
-                    strings={['Ruby on Rails','React.js', 'Node.js']}
-                    typeSpeed={70}
-                    backSpeed={80}  
+                    strings={['Ruby on Rails','React.js', 'Node.js', 'Docker', 'Kubernetes', 'SASS', 'Javascript ES6']}
+                    typeSpeed={30}
+                    backSpeed={60}  
                     loop                  
                    />
                    <a href='#' className ='btn-main-offer'> Contact me</a>

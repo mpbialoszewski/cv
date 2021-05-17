@@ -1,5 +1,6 @@
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 /*Navbar*/
 
 :root {
@@ -15,17 +16,18 @@
 
 
 body{
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
 }
 
-logo{
+/* logo{
   width: 16.25rem;
   max-height: 10rem;
-}
+} */
 
 /*NavLinks*/
 
 nav a.nav-link {
+
   font-size: .8rem;
   initial-letter: 0.0375rem;
   cursor: pointer
@@ -36,10 +38,14 @@ nav ul li{
 }
 
 .navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+  margin-right: 3.5rem;
+  margin-left: 3.5rem;
+  text-align: center;
   color: var(--cvOrange) !important;
-  border-top:  0.1875rem solid var(--cvDark);
+  border-top:  0.1875rem solid var(--cvDark); 
+  font-family: Oswald;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
 }
 
 .navbar-brand{
@@ -65,7 +71,7 @@ nav ul li{
 
 /***Header***/
 .header-wrapper{
-  position: relative;
+  background-position: relative;
   background: url(background.jpg) no-repeat;
   background-size: cover;
   opacity: 0.9;
@@ -86,7 +92,8 @@ nav ul li{
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
 } 
 
 .main-info h1{
