@@ -74,13 +74,13 @@ nav ul li{
 /***Header***/
 .header-wrapper{
   background-position: relative;
-  background: url(background.jpg) no-repeat;
+  background: url(background.jpg) no-repeat center center;
   background-size: cover;
   opacity: 0.9;
   filter: brightness(80%);
   
-  background-position: center;
-  height: 90vh;
+  background-position: cover;
+  height: 100vh;
 }
 
 .main-info{
