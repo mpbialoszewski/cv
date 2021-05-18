@@ -1,9 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle, faJs, faJsfiddle } from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faFileCode, faGem, faTools } from "@fortawesome/free-solid-svg-icons";
+import { faJs} from "@fortawesome/free-brands-svg-icons";
+import { faDesktop, faGem, faTools } from "@fortawesome/free-solid-svg-icons";
 
-//TODO: Wez to kurwa popraw
+
 const Services = () => {
   return (
     <div>
