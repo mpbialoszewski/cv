@@ -22,7 +22,7 @@ const Experience = () => {
           <div className="timeline-content">
             <h3>Febuary 2020- June 2020</h3>
             <h4>Demonstrator</h4>
-            <h5>Aberystwyth University</h5>
+            <h5>Aberystwyth University, Aberystwyth, Wales</h5>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
           </div>
         </div>
