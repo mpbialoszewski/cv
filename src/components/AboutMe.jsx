@@ -11,7 +11,7 @@ const AboutMe = () => {
           </div>
           </div>        
         <div className="col-lg-6 col-xs-12">
-          <h1 className="about-heading">About me!</h1>
+          <h1 className="about-heading">About me</h1>
           <p>Hi! My name is Mariusz, and I am a young Junior Develop currently seeking a new position
           related to web development. </p>
           <p>I call myself highly organized and efficient individual,
