@@ -12,7 +12,8 @@
   --cvYellow: rgb(255, 197, 26);
   --cvDark: #212529;
   --cvRed: #d9534f;
-  --cvLightGrey: 	rgb(211,211,211)
+  --cvLightGrey: 	rgb(211,211,211);
+  --cvDarkGrey: rgb(105,105,105);
 }
 
 
@@ -141,6 +142,7 @@ nav ul li{
   text-transform: uppercase;
   font-family: Oswald;
   font-weight: 300;
+  letter-spacing: 0.5rem;
 }
 
 @media(max-width: 468px){
@@ -162,7 +164,7 @@ nav ul li{
 .services h1{
   color: black;
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.75rem;
   font-weight: 200;
 }
 
@@ -206,4 +208,99 @@ nav ul li{
 
 .services .box:hover p {
   color: var(--cvWhite);
+}
+
+/************Experience**************/
+
+.experience-wrapper{
+  position: relative;
+  padding: 3.125rem;
+  overflow: hidden;
+}
+
+.experience h1{
+  text-transform: uppercase;
+  color: var(--cvOrange);
+  font-family: Oswald;
+  font-weight: 200;
+  letter-spacing: 0.75rem;
+}
+
+.experience h3{
+  letter-spacing: 0.25rem;
+}
+
+.experience-wrapper::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--cvLightGrey);
+  z-index: 1;
+}
+
+.timeline-block{
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-left{
+  float: left;
+  direction: rtl;
+}
+
+.timeline-block-right{
+  float: right;
+  
+}
+
+.marker{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--cvDarkGrey);
+  background: var(--cvOrange);
+  margin-top: 0.625rem;
+  z-index: 3;
+}
+
+.timeline-content {
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: var(--cvDarkGrey);
+  direction: ltr;
+}
+
+.timeline-content h3 {
+  margin-top: 0.3125rem;
+  color: var(--cvRed);
+  font-weight: 900;
+}
+
+/********MOBILE*************/
+
+@media(max-width: 768px) {
+.experience .container {
+  padding-left: 0;
+}
+
+  .experience-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+  
+  .timeline-block-left {
+    float: none;
+    direction: ltr; 
+    width: 100%;
+  }
 }
