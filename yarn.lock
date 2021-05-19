@@ -4553,6 +4553,11 @@
     "minimalistic-assert" "^1.0.1"
     "minimalistic-crypto-utils" "^1.0.1"
 
+"emailjs-com@^2.6.4":
+  "integrity" "sha512-4G8rxq+1mbL4rGntMa9tqNJ4N9BhuCl8lFJASDHxZVXeC82ivwL6qw+Zu48cAWHpNK2/F3vScaAZk8zoTAfiAA=="
+  "resolved" "https://registry.npmjs.org/emailjs-com/-/emailjs-com-2.6.4.tgz"
+  "version" "2.6.4"
+
 "emittery@^0.7.1":
   "integrity" "sha512-A8OG5SR/ij3SsJdWDJdkkSYUjQdCUx6APQXem0SaEePBSRg4eymGYwBkKo1Y6DU+af/Jn2dBQqDBvjnr9Vi8nQ=="
   "resolved" "https://registry.npmjs.org/emittery/-/emittery-0.7.2.tgz"
@@ -9506,6 +9511,11 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   "version" "6.0.9"
 
+"react-hook-form@^7.6.2":
+  "integrity" "sha512-cEmRwl33UvOvY3kVzkDOGAmNpOT1O03LtE8O79WArA3trBxLKLwOqF7zkGuj3oEe6YuzuyoM45WWjBwKCKKUHA=="
+  "resolved" "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.6.2.tgz"
+  "version" "7.6.2"
+
 "react-is@^16.8.1":
   "integrity" "sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.12.0.tgz"
@@ -9603,7 +9613,7 @@
     "prop-types" "^15.6.0"
     "typed.js" "^2.0.6"
 
-"react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^17.0.2":
+"react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17", "react@^17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
