@@ -15,7 +15,9 @@ const Services = () => {
               <div className="box">
                 <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
                 <h3>Web Design</h3>
-                <p>Placeholder WDS</p>
+                <p>HTML 5</p>
+                <p>CSS 3</p>
+                <p>LESS/SASS</p>
               </div>
             </div>
             {/* - */}
@@ -24,7 +26,11 @@ const Services = () => {
                 <div className="circle"><FontAwesomeIcon className="icon" icon={faJs} size="2x" /></div>
 
                 <h3>Web Development</h3>
-                <p>Placeholder WDV</p>
+                <p>
+                <p>React.JS</p>
+                <p>Node.JS</p>
+                <p>NPM/Yarn</p>
+                </p>
               </div>
             </div>
             {/* - */}
@@ -33,7 +39,9 @@ const Services = () => {
                 <div className="circle"><FontAwesomeIcon className="icon" icon={faGem} size="2x" /></div>
 
                 <h3>Software Engineering</h3>
-                <p>Placeholder SENG</p>
+                <p>Ruby (Junior)</p>
+                <p>Ruby on Rails(Junior)</p>
+                <p>Java(Junior)</p>
               </div>
             </div>
             {/* - */}
@@ -41,8 +49,10 @@ const Services = () => {
               <div className="box">
                 <div className="circle"><FontAwesomeIcon className="icon" icon={faTools} size="2x" /></div>
 
-                <h3>Testing</h3>
-                <p>Placehold TST</p>.
+                <h3>DevOps</h3>
+                <p>Docker</p>
+                <p>Kubernetes</p>
+                <p>UNIX</p>
               </div>
             </div>
           </div>

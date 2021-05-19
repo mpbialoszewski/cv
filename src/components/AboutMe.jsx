@@ -1,5 +1,6 @@
 import React from 'react'
 import author from '../author.jpeg';
+import {Link} from 'react-scroll'
 
 const AboutMe = () => {
   return (
@@ -12,13 +13,13 @@ const AboutMe = () => {
           </div>        
         <div className="col-lg-6 col-xs-12">
           <h1 className="about-heading">About me</h1>
-          <p>Hi! My name is Mariusz, and I am a young Junior Develop currently seeking a new position
-          related to web development. </p>
-          <p>I call myself highly organized and efficient individual,
-          whose thorough and precise approach to .</p>
-          <p>Thanks to that I have yielded excellent results in previous
-          employment such as delivering tasks and projects in with success and on schedule.</p> 
-          <p> Now I am working on this portfolio and have no idea what else to add :D </p>
+          <h2>Hello! 👋</h2>
+          <p>My name is Mariusz and I am a young developer currently seeking a new position
+          related to Web Development and/or Software Engineering. </p>
+          <p>I am still learning a lot of things about Web Development, but I already gained some experience in that field.</p>
+          <p>Currently I am working on creating my side projects which I will include in <Link to="#">Portfolio</Link> section when it's ready.</p>
+          <p> I am always seeking new opportunities where I can improve and develop my Web Development / Software Engineering skils.</p>
+          <p>If you are interested in collaboration - please contact me with details provided below 😀</p>
         </div>
       </div>
     </div>
