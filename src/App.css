@@ -170,6 +170,10 @@ nav ul li{
   font-weight: 200;
 }
 
+.services ul{
+  position: center;
+}
+
 .services .circle{
   position: relative;
   margin: 0.375rem auto;
@@ -307,3 +311,115 @@ nav ul li{
     width: 100%;
   }
 }
+
+
+/*********Contact*************/
+
+.contacts{
+  background-color: var(--cvDark);
+  padding: 3rem 0;
+}
+
+.contacts h1{
+  color: var(--cvOrange);
+  padding: 1.3rem;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-weight: 200;
+  letter-spacing: 0.75rem;
+}
+
+.contacts p{
+  color: var(--cvWhite);
+  padding: 1.3rem;
+}
+/*****Inputs****/
+
+.contacts input, .contacts textarea{
+  font-family: Lato;
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--cvDarkGrey);
+  border-radius: 0;
+  color: var(--cvLightGrey);
+  outline: 0 !important;
+  box-shadow: none !important;
+  top: 0;
+  margin-bottom: 1rem;
+}
+
+
+.contacts .container{
+  padding: 4rem 0;
+}
+
+
+.contacts input:focus,  .contacts textarea:focus{
+  background: transparent;
+  color: var(--cvOrange);
+  border-bottom: 0.125rem solid var(--cvDarkGrey);
+
+}
+
+.contacts textarea{
+  height: 12.4rem !important;
+  margin: 0;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line{
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--cvOrange);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line{
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control{
+  margin: -0.3rem 0;
+}
+
+textarea.form-control{
+  margin: -0.3rem 0;
+}
+
+.error-message{
+  color: var(--cvWhite);
+  background: var(--cvRed);
+  text-align: left;
+}
+
+.success-message{
+  font-weight: 900;
+  color: var(--cvGreen);
+}
+/****Media Contact****/
+
+@media(max-width: 768px){
+  .contacts{
+  overflow-x: hidden;
+  }
+  .contacts .container{
+    padding:0 1rem;
+  }
+  .contacts p {
+    padding: 0 0 4rem;
+  }
+}
+
+
+
