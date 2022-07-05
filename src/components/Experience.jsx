@@ -7,6 +7,27 @@ const Experience = () => {
         <h1>experience</h1>
       </div>
       <div className="container experience-wrapper">
+         {/* - */}
+         <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>June 2021 - Febuary 2022</h3>
+            <h4>Data Integration Developer </h4>
+            <h5>OpenCorporates LTD, London (Remote) </h5>
+          <ul>
+            <li>Ongoing developer and data analyst tasks</li>
+            <li>Working on automating processes</li>
+            <li>Delivering required data for customers through SFTP and dealing with client queries</li>
+            <li>Working on SSH for processing files and running scraper/ API bots</li>
+            <li>Identifying issues for bot runs based on logs and proposing possible solutions to fix them</li>
+            <li>Creating and editing API Accounts on demand</li>
+            <li>Ongoing moderating content of main page www.opencorporates.com through Rails console</li>
+            <li><i>Stack: Ruby 2.2.2, 2.6.3, Ruby on Rails 4/5, SSH, Unix, NumPy, Pandas, Python 3</i></li>
+            <li>Software used: Jira, Confluence, Google Docs, Docker, Postman, Sequel Pro, Visual Studio
+Code, IntelliJ Idea Ultimate</li>
+            </ul>
+          </div>
+        </div>
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
@@ -55,32 +76,6 @@ const Experience = () => {
           </ul>
           </div>
         </div>
-        {/* - */}
-        {/* <div className="timeline-block timeline-block-left">
-          <div className="marker"></div>
-          <div className="timeline-content">
-            <h3>January 2015 - August 2015</h3>
-            <h4>Internation Sales Manager</h4>
-            <h5>Fild.net, Bialystok, Poland</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
-          </div>
-        </div> */}
-        {/* - */}
-        {/* <div className="timeline-block timeline-block-right">
-          <div className="marker"></div>
-          <div className="timeline-content">
-            <h3>2017-2018</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
-          </div>
-        </div> */}
-        {/* - */}
-        {/* <div className="timeline-block timeline-block-left">
-          <div className="marker"></div>
-          <div className="timeline-content">
-            <h3>2018-2020</h3>a
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
-          </div>
-        </div> */}
       </div>
     </div>
   )
